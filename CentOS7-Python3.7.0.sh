@@ -16,4 +16,4 @@ python -V
 pip -V
 
 sed -i 's/^#!\/usr\/bin\/python$/#!\/usr\/bin\/python2.7/g' /usr/bin/yum
-sed -i 's/^#!\/usr\/bin\/python$/#!\/usr\/bin\/python2.7/g' /usr/libexec/urlgrabber-ext-down
+sed -i 's/^#!\s\+\/usr\/bin\/python$/#!\/usr\/bin\/python2.7/g' /usr/libexec/urlgrabber-ext-down
