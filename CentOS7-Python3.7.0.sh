@@ -14,3 +14,6 @@ ln -s /usr/local/bin/pip3.7 /usr/bin/pip
 
 python -V
 pip -V
+
+sed -i 's/^#!\/usr\/bin\/python$/#!\/usr\/bin\/python2.7/g' /usr/bin/yum
+sed -i 's/^#!\/usr\/bin\/python$/#!\/usr\/bin\/python2.7/g' /usr/libexec/urlgrabber-ext-down
